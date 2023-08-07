@@ -1,5 +1,32 @@
 # go-math-lib
 
+This is an example test of how to create a library in go.
+
+## Steps to create a go library
+
+1. Create a repository on github, in this case go-math-lab.
+2. Clone the repository, in this case using the path github.com/username/
+3. Create the module
+```
+go mod init github.com/frankvasquez94/go-math-lib
+```
+4. Write the code of the library.
+5. push the code to your repository.
+```
+git puh origin main
+```
+6. Create a tag
+```
+git tag v0.0.1
+```
+7. push the code to the tag.
+```
+git push origin v0.0.1
+```
+
+At this point our library is ready!!
+
+
 ## install
 
 ```http request
@@ -50,3 +77,4 @@ MultiplyInt(a, b int) int
 DivideInt(a, b int) int
 
 Module(a, b int) int
+
