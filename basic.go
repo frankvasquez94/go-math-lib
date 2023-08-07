@@ -16,6 +16,6 @@ func DivideInt(a, b int) int {
 	return a / b
 }
 
-func module(a, b int) int {
+func Module(a, b int) int {
 	return a % b
 }
